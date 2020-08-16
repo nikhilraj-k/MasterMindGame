@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A5A94F0D22E284965D6ED7 /* Pods_MasterMindGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 421FB7DA3AA4ABC3FFD4AA1B /* Pods_MasterMindGameTests.framework */; };
 		5AB090BB24E93AEC002BE831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB090BA24E93AEC002BE831 /* AppDelegate.swift */; };
 		5AB090C024E93AEC002BE831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB090BE24E93AEC002BE831 /* Main.storyboard */; };
 		5AB090C224E93AEC002BE831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB090C124E93AEC002BE831 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 		5AB090DB24E93B1C002BE831 /* TextValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB090DA24E93B1C002BE831 /* TextValidateViewController.swift */; };
 		5AB090DD24E93B8B002BE831 /* MasterMindValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB090DC24E93B8B002BE831 /* MasterMindValidator.swift */; };
 		5AB090E024E93C41002BE831 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB090DF24E93C41002BE831 /* AppConstants.swift */; };
+		91A21D36F91CC5BE194491A2 /* Pods_MasterMindGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE08DDBB7B178D398CBE59D /* Pods_MasterMindGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BE08DDBB7B178D398CBE59D /* Pods_MasterMindGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterMindGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421FB7DA3AA4ABC3FFD4AA1B /* Pods_MasterMindGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterMindGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56031FC6967D4A5DAAC1F470 /* Pods-MasterMindGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterMindGame.release.xcconfig"; path = "Target Support Files/Pods-MasterMindGame/Pods-MasterMindGame.release.xcconfig"; sourceTree = "<group>"; };
 		5AB090B724E93AEC002BE831 /* MasterMindGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterMindGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB090BA24E93AEC002BE831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AB090BF24E93AEC002BE831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		5AB090DA24E93B1C002BE831 /* TextValidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextValidateViewController.swift; sourceTree = "<group>"; };
 		5AB090DC24E93B8B002BE831 /* MasterMindValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMindValidator.swift; sourceTree = "<group>"; };
 		5AB090DF24E93C41002BE831 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		92D7953C2C9116421629C87C /* Pods-MasterMindGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterMindGameTests.debug.xcconfig"; path = "Target Support Files/Pods-MasterMindGameTests/Pods-MasterMindGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AED0E61B622B75D704CFB4 /* Pods-MasterMindGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterMindGameTests.release.xcconfig"; path = "Target Support Files/Pods-MasterMindGameTests/Pods-MasterMindGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAB147E2DA5FD0B393D57D3E /* Pods-MasterMindGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterMindGame.debug.xcconfig"; path = "Target Support Files/Pods-MasterMindGame/Pods-MasterMindGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A21D36F91CC5BE194491A2 /* Pods_MasterMindGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +63,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A5A94F0D22E284965D6ED7 /* Pods_MasterMindGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C189E4ADCF5AF6B038B0558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE08DDBB7B178D398CBE59D /* Pods_MasterMindGame.framework */,
+				421FB7DA3AA4ABC3FFD4AA1B /* Pods_MasterMindGameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30DF816ABF8AA78D20F88874 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB147E2DA5FD0B393D57D3E /* Pods-MasterMindGame.debug.xcconfig */,
+				56031FC6967D4A5DAAC1F470 /* Pods-MasterMindGame.release.xcconfig */,
+				92D7953C2C9116421629C87C /* Pods-MasterMindGameTests.debug.xcconfig */,
+				D5AED0E61B622B75D704CFB4 /* Pods-MasterMindGameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5AB090AE24E93AEB002BE831 = {
 			isa = PBXGroup;
 			children = (
 				5AB090B924E93AEC002BE831 /* MasterMindGame */,
 				5AB090CE24E93AEC002BE831 /* MasterMindGameTests */,
 				5AB090B824E93AEC002BE831 /* Products */,
+				30DF816ABF8AA78D20F88874 /* Pods */,
+				2C189E4ADCF5AF6B038B0558 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AB090D424E93AEC002BE831 /* Build configuration list for PBXNativeTarget "MasterMindGame" */;
 			buildPhases = (
+				4C5E9952F12CD8AB692C2D52 /* [CP] Check Pods Manifest.lock */,
 				5AB090B324E93AEC002BE831 /* Sources */,
 				5AB090B424E93AEC002BE831 /* Frameworks */,
 				5AB090B524E93AEC002BE831 /* Resources */,
+				5AE6707424E94A5E00B87227 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -134,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AB090D724E93AEC002BE831 /* Build configuration list for PBXNativeTarget "MasterMindGameTests" */;
 			buildPhases = (
+				F80AC963935F4C665CB4C65C /* [CP] Check Pods Manifest.lock */,
 				5AB090C724E93AEC002BE831 /* Sources */,
 				5AB090C824E93AEC002BE831 /* Frameworks */,
 				5AB090C924E93AEC002BE831 /* Resources */,
@@ -205,6 +240,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C5E9952F12CD8AB692C2D52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasterMindGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE6707424E94A5E00B87227 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		F80AC963935F4C665CB4C65C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MasterMindGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AB090B324E93AEC002BE831 /* Sources */ = {
@@ -374,6 +473,7 @@
 		};
 		5AB090D524E93AEC002BE831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB147E2DA5FD0B393D57D3E /* Pods-MasterMindGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -391,6 +491,7 @@
 		};
 		5AB090D624E93AEC002BE831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56031FC6967D4A5DAAC1F470 /* Pods-MasterMindGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -408,6 +509,7 @@
 		};
 		5AB090D824E93AEC002BE831 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D7953C2C9116421629C87C /* Pods-MasterMindGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -428,6 +530,7 @@
 		};
 		5AB090D924E93AEC002BE831 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5AED0E61B622B75D704CFB4 /* Pods-MasterMindGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

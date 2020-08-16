@@ -2,7 +2,7 @@
 //  MasterMindGameTests.swift
 //  MasterMindGameTests
 //
-//  Created by Rahul Kashyap on 16/08/20.
+//  Created by Nikhil on 16/08/20.
 //  Copyright © 2020 Nikhil. All rights reserved.
 //
 

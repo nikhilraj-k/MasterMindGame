@@ -33,18 +33,13 @@ class TextValidateViewController: UIViewController {
     }
     /*Action for the button replay. it will reset everything and generate new string**/
     @IBAction func replayAction(_ sender: Any) {
-        for tField in inputTextFields {
-            tField.text = ""
-            tField.backgroundColor = .white
-        }
-        inputTextFields[0].becomeFirstResponder()
-        self.generateAndPrindRandomString()
+        self.replayClick()
     }
     /*Function for generate a random string and print in console*/
     func generateAndPrindRandomString() {
-        self.getRandomString = generateRandomString(length: 4)
+        self.getRandomString = generateRandomString(length: tRandomStringLenght)
         if let randomString = self.getRandomString {
-            print("Random String is : \(randomString)")
+            print(tRandomStringLog, "\(randomString)")
         }
     }
 }
@@ -54,12 +49,23 @@ extension TextValidateViewController {
     func setInitialProperties() {
         self.buttonCheck.titleLabel?.sizeToFit()
         self.buttonCheck.layer.cornerRadius = 5
+        self.buttonReplay.setTitle(tReplayButtonTitle, for: .normal)
+        self.buttonCheck.setTitle(tCheckButtonTitle, for: .normal)
         self.generateAndPrindRandomString()
         self.errorLabel.text = tInfoText
         self.errorLabel.isHidden = true
         for tField in inputTextFields {
             tField.addTarget(self, action: #selector(changeTextFieldValue), for: .editingChanged)
         }
+    }
+    /*Function resetting the game and generate new random String*/
+    func replayClick() {
+        for tField in inputTextFields {
+            tField.text = ""
+            tField.backgroundColor = .white
+        }
+        inputTextFields[0].becomeFirstResponder()
+        self.generateAndPrindRandomString()
     }
     /*Function for generaing the random string*/
     func generateRandomString(length: Int) -> String {

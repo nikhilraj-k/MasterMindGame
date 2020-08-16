@@ -23,7 +23,7 @@ class MasterMindValidator: XCTestCase {
     func testGenerateRandomString() {
         let length = 4
         let textValidator = TextValidateViewController()
-        let randomString = textValidator.generateRandomString(length: 4)
+        let randomString = textValidator.generateRandomString(length: tRandomStringLenght)
         XCTAssertEqual(randomString.count, length)
         XCTAssert(randomString.count == 4)
     }
@@ -35,5 +35,14 @@ class MasterMindValidator: XCTestCase {
         XCTAssertEqual(greenColour, UIColor.green)
         XCTAssertEqual(orangeColour, UIColor.orange)
         XCTAssertEqual(redColour, UIColor.red)
+    }
+    func testReplayClick() {
+       let textValidator = TextValidateViewController()
+        if let textFields = textValidator.inputTextFields {
+         textValidator.replayClick()
+            for tField in textFields {
+                XCTAssertNil(tField.text)
+            }
+        }
     }
 }

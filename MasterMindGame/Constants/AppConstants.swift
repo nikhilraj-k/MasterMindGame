@@ -10,3 +10,7 @@ import Foundation
 
 let tInfoText = "Please fill all the fields"
 let tRandomGeneratorString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+let tRandomStringLog = "Random String is :"
+let tCheckButtonTitle = "Check"
+let tReplayButtonTitle = "Replay"
+let tRandomStringLenght = 4

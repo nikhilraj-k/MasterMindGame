@@ -84,17 +84,14 @@ extension TextValidateViewController {
     }
     /*Function for getting current input field */
     @objc func changeTextFieldValue(sender: UITextField) {
-        switch sender.tag {
-        case 0, 1, 2: setTextFieldResponder(sender: sender)
-        default:break
-        }
+        setTextFieldResponder(sender: sender)
     }
      /*Function for change the scope of input field to next one */
     func setTextFieldResponder(sender: UITextField) {
-        guard let text = sender.text, text.count == 1 else {
+        guard let text = sender.text, text.count == 1, sender.tag != 3 else {
             return
         }
-        inputTextFields[sender.tag + 1].becomeFirstResponder()
+         inputTextFields[sender.tag + 1].becomeFirstResponder()
     }
 }
 
